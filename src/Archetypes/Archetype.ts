@@ -25,7 +25,7 @@ export default abstract class Race {
 
   public abstract get energyType(): EnergyType;
 
-  public static createdArchetypesInstances(): number {
+  public static createdArchetypeInstances(): number {
     throw new Error('Not implemented');
   }
 }
